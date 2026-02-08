@@ -144,11 +144,12 @@ const structuredData = {
         const currentTheme = localStorage.getItem("theme");
 
         function getPreferTheme() {
-          if (currentTheme) return currentTheme;
-          if (initialColorScheme) return initialColorScheme;
-          return window.matchMedia("(prefers-color-scheme: dark)").matches
-            ? "dark"
-            : "light";
+          return "dark";
+          // if (currentTheme) return currentTheme;
+          // if (initialColorScheme) return initialColorScheme;
+          // return window.matchMedia("(prefers-color-scheme: dark)").matches
+          //   ? "dark"
+          //   : "light";
         }
 
         const themeValue = getPreferTheme();

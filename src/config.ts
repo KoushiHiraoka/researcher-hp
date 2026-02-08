@@ -1,7 +1,8 @@
+export const BASE_URL = import.meta.env.BASE_URL || "http://localhost:3000";
 export const SITE = {
-  website: "https://koushihiraoka.github.io/researcher-hp/",
+  website: "https://koushihiraoka.github.io/homepage/",
   author: "平岡 滉司 (Koushi Hiraoka)",
-  profile: "https://satnaing.dev/",
+  profile: "https://koushihiraoka.github.io/homepage/",
   desc: "九州大学 人間情報システム研究グループ 荒川研究室 博士後期課程1年 (D1)",
   title: "平岡 滉司 (Koushi Hiraoka)",
   ogImage: "astropaper-og.jpg",

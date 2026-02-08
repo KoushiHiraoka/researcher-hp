@@ -11,10 +11,9 @@ import {
 import { transformerFileName } from "./src/utils/transformers/fileName";
 import { SITE } from "./src/config";
 
-// https://astro.build/config
 export default defineConfig({
-  site: "https://koushihiraoka.github.io",
-  base: "/researcher-hp",
+  site: "https://koushihiraoka.github.io/homepage",
+  base: "/homepage",
   integrations: [
     sitemap({
       filter: page => SITE.showArchives || !page.endsWith("/archives"),
