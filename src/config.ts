@@ -11,11 +11,11 @@ export const SITE = {
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
   showBackButton: true, // show back button in post detail
-  // editPost: {
-  //   enabled: false,
-  //   // text: "Edit page",
-  //   // url: "https://github.com/satnaing/astro-paper/edit/main/",
-  // },
+  editPost: {
+    enabled: false,
+    text: "",
+    url: "",
+  },
   dynamicOgImage: true,
   dir: "ltr", // "rtl" | "auto"
   lang: "ja", // html lang code. Set this empty and default will be "en"
