@@ -149,6 +149,9 @@ const highlightMyName = (authors: string) => {
                 {pub.links && pub.links.doi && (
                   <p class="text-sm text-foreground/60">DOI: {pub.links.doi}.</p>
                 )}
+                {pub.award && (
+                  <p class="text-red-500 text-foreground/60 text-[14px]">{pub.award}</p>
+                )}
                 {pub.links && (
                   <div class="mt-1 flex gap-2 text-sm">
                     {pub.links.paper && <a href={pub.links.paper} class="text-accent hover:underline">[Paper]</a>}
@@ -170,6 +173,12 @@ const highlightMyName = (authors: string) => {
                 <p class="font-medium">{pub.title}</p>
                 <p class="text-sm text-foreground/70" set:html={highlightMyName(pub.authors)}></p>
                 <p class="text-sm text-foreground/70">{pub.venue}, {pub.year}, {pub.month}</p>
+                {pub.links && pub.links.doi &&(
+                  <p class="text-sm text-foreground/60">DOI: {pub.links.doi}.</p>
+                )}
+                {pub.award && (
+                  <p class="text-red-500 text-foreground/60 text-[14px]">{pub.award}</p>
+                )}
                 {pub.links && (
                   <div class="mt-1 flex gap-2 text-sm">
                     {pub.links.paper && <a href={pub.links.paper} class="text-accent hover:underline">[Paper]</a>}
@@ -191,6 +200,12 @@ const highlightMyName = (authors: string) => {
                 <p class="font-medium">{pub.title}</p>
                 <p class="text-sm text-foreground/70" set:html={highlightMyName(pub.authors)}></p>
                 <p class="text-sm text-foreground/70">{pub.venue}, {pub.year}, {pub.month}</p>
+                {pub.links && pub.links.doi &&(
+                  <p class="text-sm text-foreground/60">DOI: {pub.links.doi}.</p>
+                )}
+                {pub.award && (
+                  <p class="text-red-500 text-foreground/60 text-[14px]">{pub.award}</p>
+                )}
                 {pub.links && (
                   <div class="mt-1 flex gap-2 text-sm">
                     {pub.links.paper && <a href={pub.links.paper} class="text-accent hover:underline">[Paper]</a>}

@@ -69,3 +69,8 @@ html[data-theme="dark"] {
 :target {
   scroll-margin-block: 1rem;
 }
+
+.text-red-500 {
+  color: #E0115F;
+  font-weight: bold; 
+}
