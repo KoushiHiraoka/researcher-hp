@@ -33,7 +33,7 @@ export const grants: { title: string; organization: string; period: string }[] =
     },
     {   title: "2025年度 日本学生支援機構奨学金 大学院「特に優れた業績による返還免除」", 
         organization: "日本学生支援機構", 
-        period : "2025年度" 
+        period : "2023年4月 - 2025年3月" 
     },
 ];
 
