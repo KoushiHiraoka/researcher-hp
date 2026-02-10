@@ -31,7 +31,7 @@ export const grants: { title: string; organization: string; period: string }[] =
         organization: "科学技術振興機構 (JST)", 
         period : "2025年4月 - 現在" 
     },
-    {   title: "2025年度 日本学生支援機構奨学金 大学院「特に優れた業績による返還免除」", 
+    {   title: "2024年度 日本学生支援機構奨学金 大学院「特に優れた業績による返還免除」", 
         organization: "日本学生支援機構", 
         period : "2023年4月 - 2025年3月" 
     },
