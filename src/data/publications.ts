@@ -37,7 +37,7 @@ export const internationalConferences: Publication[] = [
     year: "2026",
     month: "January",
     links: {
-      paper: "https://doi.org/10.1145/3737611.37769", 
+      paper: "https://doi.org/10.1145/3737611.3776956", 
     }
     },
     {
@@ -47,7 +47,7 @@ export const internationalConferences: Publication[] = [
     year: "2026",
     month: "January",
     links: {
-      paper: "https://doi.org/10.1145/3737611.377696",
+      paper: "https://doi.org/10.1145/3737611.3776960",
     }
     },
     {
@@ -58,6 +58,16 @@ export const internationalConferences: Publication[] = [
     month: "November",
     links: {
       paper: "https://epapers2.org/nolta2025/ESR/paper_details.php?paper_id=6089",
+    }
+    },
+    {
+    title: "Exploring Trade-offs in Privacy-Aware Activity Recognition with Small Wearable Cameras",
+    authors: "Koushi Hiraoka, Yugo Nakamura, Yutaka Arakawa",
+    venue: "International Conference on Human-Computer Interaction (HCII)",
+    year: "2025",
+    month: "May",
+    links: {
+      paper: "https://link.springer.com/chapter/10.1007/978-3-031-92977-9_17",
     }
     },
     {
