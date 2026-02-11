@@ -125,6 +125,11 @@ const highlightMyName = (authors: string) => {
                 <li>
                   <p class="font-medium whitespace-pre-line">{grant.title}</p>
                   <p class="text-sm text-foreground/60">{grant.organization}, {grant.period}</p>
+                  {grant.link && (
+                  <div class="mt-1 flex gap-2 text-sm">
+                    <a href={grant.link} class="text-accent hover:underline">[Link]</a>
+                  </div>
+                )}
                 </li>
               ))}
             </ul>

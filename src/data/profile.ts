@@ -22,10 +22,11 @@ export const researchInterests = [
   "研究テーマ2",
 ];
 
-export const grants: { title: string; organization: string; period: string }[] = [
+export const grants: { title: string; organization: string; period: string; link?: string }[] = [
     {   title: "2025年度 福岡未踏 【Pro】採択 \n「SAW-Ring：表面弾性波センシングを活用したテクスチャ駆動リング型デバイス」", 
         organization: "福岡未踏的人材発掘・育成コンソーシアム (福岡未踏)", 
-        period : "2025年7月 - 2026年2月" 
+        period : "2025年7月 - 2026年2月", 
+        link: "https://mitou-fukuoka.org/works/saw-ring/"
     },
     {   title: "『基盤』と『応用』の相乗効果で未来を拓く高度AI人財育成プログラム (K-BOOST) 採択", 
         organization: "科学技術振興機構 (JST)", 
